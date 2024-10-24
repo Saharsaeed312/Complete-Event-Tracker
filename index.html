@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Complete Event Tracker</h1>
+    <!-- Click -->
+    <div class="click">
+        <h3>Click Event</h3>
+        <button id="clickbtn">Click Me</button>
+        <p id="clickcount">Click:0</p>
+    </div>
+    <!-- Double -->
+    <div class="doubleClick">
+        <h3>Double Click Event</h3>
+        <button id="doubleClick button">Double Click Here</button>
+        <p id="doubleClick">No Double Click Detected yet</p>
+    </div>
+    <!-- load -->
+    <div class="loadEvent">
+        <h3>Load Event</h3>
+        <p id="loadEvent">Wait for the loading page</p>
+    </div>
+    <!-- Mouse -->
+    <div class="mouseEvent">
+        <h3>Mouse Events</h3>
+        <div id="mouseArea">300 x 300</div>
+        <p id="mousePosition">Mouse Position: (0, 0)</p>
+    </div>
+     <!-- Keyboad -->
+     <div class="KeyboardEvent">
+        <h3>Keyboard Events</h3>
+        <input type="text" id="keyboardInput" placeholder="Type something">
+        <p id="lastKey">Last Key Pressed: </p>
+    </div>
+      <!-- copy -->
+       <div class="copyEvent">
+        <h3>Copy Event</h3>
+        <p id="copyText"> Copy This Text</p>
+        <p id="copyStatus">No Text Coppied Yet</p>
+       </div>
+       <!-- Paste -->
+       <div class="PasteEvent">
+        <h3>Paste Event</h3>
+        <input type="text" id="pasteInput" placeholder="Paste something here">
+        <p id="pasteStatus">Waiting for content to be pasted...</p>
+    </div>
+        <!-- focus and blur -->
+         <div class="focusAndblurEvent">
+            <h3>Focus And Blur Event</h3>
+            <input type="text" id="focusInput" placeholder="Focus/Blur Text">
+            <p id="FocusStatus">Focus Status Here</p>
+         </div>
+         <!-- Window Resize -->
+          <div class="windowResize">
+            <h3>Window Resize</h3>
+            <p id="windowStatus">Current Window Size:</p>
+          </div>
+          <!-- Touch Event -->
+          <div class="touch event">
+            <h3>Touch Event</h3>
+            <div id="touchArea">Touch Area</div>
+            <p id="touchStatus">Touch Coordinates: </p>
+        </div>
+           <!-- Scroll -->
+            <div class="ScrolEvent">
+                <h3>Scroll Event</h3>
+                <p id="ScrollStatus">Scroll the page to trigger this event!</p>
+            </div>
+            <!-- Foam Submit -->
+
+            <div class="FoamSubmit">
+                <h3>Form Submit Event</h3>
+                <form id="submitForm">
+                    <input type="text" id="formInput" placeholder="Submit me">
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="formStatus">Form Status: </p>
+            </div>
+             <!-- input -->
+              <div class="inputEvent">
+                <h3>Input Event</h3>
+                <input type="text" placeholder="Type Something" id="inputEvent">
+                <p id="InputStatus">Waiting For Input</p>
+              </div>
+              <!-- drag and drop -->
+              <div class="Drag And Drop">
+                <h3>Drag and Drop Event</h3>
+                <div id="dragArea" draggable="true">Drag Me</div>
+                <div id="dropArea">Drop Here</div>
+                <p id="dragDropStatus">Drag and Drop Status: </p>
+            </div>
+            <!-- media -->
+            <div class="section section9">
+                <h3>Media Event</h3>
+                <video id="media" controls>
+                    <source src="mixkit-people-pouring-a-warm-drink-around-a-campfire-513-hd-ready.mp4"
+                        type="video/mp4">
+                </video>
+                <p id="mediaStatus">Media Status: Not started</p>
+            </div>
+            <script src="script.js"></script>
+</body>
+</html>
