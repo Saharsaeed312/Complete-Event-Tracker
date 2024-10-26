@@ -20,7 +20,6 @@ document.getElementById('mouseArea').addEventListener('mousemove', function (e) 
     const x = e.clientX;
     const y = e.clientY;
     document.getElementById('mousePosition').innerText = `Mouse Position: (${x}, ${y})`;
-    document.getElementById('mousePosition').style.color = "green";
 });
 
 // keyboard Event:
